@@ -3,7 +3,13 @@ import React from "react";
 const Body = () => {
   return (
     <main style={styles.body}>
-      
+      <div style={styles.card}>
+        <img src={"/photos/oleh-photo.jpg"} alt="Oleh Filyk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Oleh Filyk</h2>
+          <p style={styles.position}>Team lead</p>
+        </div>
+      </div>
     </main>
   );
 };
