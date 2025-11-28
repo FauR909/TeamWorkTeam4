@@ -4,12 +4,38 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <img src={"/photos/oleh-photo.jpg"} alt="Oleh Filyk" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>TEST CONFLICT</h2>
-          <p style={styles.position}>Software engineer</p>
+          <h2 style={styles.name}>Oleh Filyk</h2>
+          <p style={styles.position}>Team lead</p>
         </div>
-      </div>
+          </div>
+
+
+          <div style={styles.card}>
+              <img src={"/photos/tetiana-photo.jpg"} alt="Tetiana Melnyk" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Tetiana Melnyk</h2>
+                  <p style={styles.position}>Project Manager</p>
+              </div>
+          </div>
+
+
+          <div style={styles.card}>
+              <img src={"/photos/artem-photo.jpg"} alt="Artem Navroshchuk" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Artem Navroshchuk</h2>
+                  <p style={styles.position}>Team developer</p>
+              </div>
+          </div>
+
+          <div style={styles.card}>
+              <img src={"/photos/dmytro-photo.jpg"} alt="Dmytro Chebanenko" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Dmytro Chebanenko</h2>
+                  <p style={styles.position}>Business Analyst</p>
+              </div>
+          </div>
     </main>
   );
 };
