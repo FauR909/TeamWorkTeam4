@@ -13,7 +13,7 @@ const Body = () => {
 
 
           <div style={styles.card}>
-              <img src={"/photos/tetiana-photo.jpg"} alt="Tetiana Melnyk" style={styles.photo} />
+              <img src={"/photos/other-tetiana-photo.jpg"} alt="Tetiana Melnyk" style={styles.photo} />
               <div style={styles.textContainer}>
                   <h2 style={styles.name}>Tetiana Melnyk</h2>
                   <p style={styles.position}>Project Manager</p>
